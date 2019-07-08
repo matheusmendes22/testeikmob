@@ -1,0 +1,36 @@
+.icon__block{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #312f4e;
+    border-radius: 50%;
+    i{
+        color:#fff ;
+        font-size: 42px;
+    }
+}
+.benefict__block{
+    h2{
+        font-family: 'montserrat';
+        font-weight: 500;
+    }
+    p{
+        font-family: 'montserrat';
+        font-weight: 300;
+    }
+}
+@media(min-width:1024px){
+    .benefict__block{
+        h2{
+            min-height: 100px;
+            font-family: 'montserrat';
+            font-weight: 500;
+        }
+        p{
+            font-family: 'montserrat';
+            font-weight: 300;
+        }
+    }
+}

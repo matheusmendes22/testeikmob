@@ -1,0 +1,38 @@
+.contact__block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact__container{
+    margin: 80px 0;
+}
+@media(max-width:1024px){
+    .contact__block{
+        flex-direction: column;
+    }
+    .contact__text-block{
+        padding-right: 150px;
+    }
+}
+.contact__text-block{
+    h2{
+        font-family: 'montserrat';
+        font-weight: bold;
+        font-size: 26px;
+        margin-bottom: 10px;
+        span{
+            color: #313357 ;
+        }
+    }
+    label,input,p{
+        font-family: 'montserrat';
+    }
+    button{
+        background-color: #313357;
+        color: #fff;
+        font-family: 'montserrat';
+        border: none !important;
+        &:hover{
+            background-color: #eeca5a ;
+        }
+    }
+}

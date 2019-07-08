@@ -1,0 +1,17 @@
+.benefict__block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+}
